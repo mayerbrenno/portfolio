@@ -38,7 +38,22 @@
                 </div>
                 <div>
                     <h3>Formação</h3>
-                    <h5 class="formacao-subtitle">Dez/2019 - </h5><p>&nbspGraduação em Sistemas da Informação, Universidade Presbiteriana Mackenzie.</p></div>
+                    <h5 class="formacao-subtitle">Dez/2019 - </h5><p>&nbspGraduação em Sistemas da Informação, Universidade Presbiteriana Mackenzie.</p>
+                </div>
+                <div>
+                    <h3>Idiomas</h3>
+                    <p>Inglês Pós-Intermediário com certificação internacional de nível B2 no Quadro Comum Europeu.</p>
+                </div>
+                <div>
+                    <h3>Outros Objetivos</h3>
+                    <p>Me tornar um profissional relevante e imprescindível nos objetivos e processos de uma organização.</p>
+                </div>
+                <div>
+                    <h3>Informações Complementares</h3>
+                    <p>Conhecimento básico em Python, R, Java, HTML e CSS.</p>
+                    <p>Conhecimento intermediário em PHP, Javascript, Typescript e Bancos de Dados Relacionais.</p>
+                    <p>Aceito viajar pela empresa.</p>
+                </div>
             </div>
         </div>
     </body>
