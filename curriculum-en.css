@@ -1,0 +1,247 @@
+body {
+    color: darkslategray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, monospace;
+    height: auto;
+    /* background-repeat: repeat-y;
+    background: linear-gradient(180deg, #003380 0%, #39004d 100%) !important; */
+    background-color: white;
+    word-wrap: normal;
+    word-break: break-word;
+    text-align: justify;
+    padding: 15px;
+}
+
+.industrial-brown {
+    color: #906852c4;
+}
+
+.bg-industrial-brown {
+    background-color: #906852c4;
+}
+
+.bg-secundary {
+    background-color: darkslategray;
+}
+
+.header {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.padding-15 {
+    padding: 15px;
+}
+
+.margin-top-35 {
+    margin-top: 35px;
+}
+
+.padding-right-15 {
+    padding-right: 15px;
+}
+
+.padding-left-15 {
+    padding-left: 15px;
+}
+
+.padding-x-15 {
+    padding: 0 15px;
+}
+
+p {
+    word-break: normal;
+    font-size: 13px;
+    text-align: justify;
+    margin-block-start: 0.2em;
+    margin-block-end: 0.2em;
+    text-align: justify;
+    text-justify: inter-word;
+    word-break: break-word;
+    width: 100%;
+}
+
+span {
+    word-break: normal;
+    font-size: 13px;
+    text-align: justify;
+    margin-block-start: 0.2em;
+    margin-block-end: 0.2em;
+}
+
+h1::first-letter {
+    font-size: 130%;
+}
+
+h2::first-letter {
+    font-size: 130%;
+}
+
+h3::first-letter {
+    font-size: 130%;
+}
+
+h3 {
+    margin-block-start: 0.6em;
+    margin-block-end: 0.3em;
+}
+
+
+h4 {
+    margin-block-start: 0.8em;
+    margin-block-end: 0.8em;
+}
+
+
+h5 {
+    margin-block-start: 0.7em;
+    margin-block-end: 0.3em;
+}
+
+div {
+    margin-block-start: 0.7em;
+    margin-block-end: 0.7em;
+}
+
+.container {
+    box-sizing: border-box;
+    min-width: auto;
+    max-width: 900px;
+    align-self: center;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.primary {
+    color: #fff;
+    background-color: darkslategray;
+}
+
+.secundary {
+    color: darkslategray;
+    background-color: #fff;
+}
+
+.left-side {
+    flex-direction: column;
+    position: relative;
+    display: flex;
+    flex-grow: 1;
+}
+
+.left-side .header {
+    text-align: center;
+    
+}
+
+.left-side .header p {
+    position: relative;
+    word-break: normal;
+    width: 100%;
+    font-size: 13px;
+    text-align: center;
+    margin-block-start: 0.2em;
+    margin-block-end: 0.2em;
+}
+
+.left-side .programming-skills {
+    padding: 0 5px;
+}
+
+.left-side .programming-skills .header {
+    text-align: center;
+}
+
+.left-side .programming-skills .programming-skills-grid {
+    display: grid;
+    grid-template-columns: auto 20%;
+}
+
+.left-side .programming-skills .programming-skills-grid .bars-column {
+    display: inline-flex;
+    align-items: center;
+    justify-content: right;
+    margin: 0 0;
+    padding: 0;
+}
+
+.left-side .bars {
+    margin: 0 0 0 4px;
+    padding: 0;
+    display: inline-flex;
+    width: 7px;
+    height: 14px;
+}
+
+.left-side .personal-skills p {
+    position: relative;
+    word-break: break-word;
+    width: 100%;
+    font-size: 13px;
+    text-align: center;
+    margin-block-start: 0.2em;
+    margin-block-end: 0.2em;
+    margin: .25rem 0;
+}
+
+.left-side .education p {
+    position: relative;
+    word-break: break-word;
+    width: 100%;
+    font-size: 13px;
+    text-align: center;
+    margin-block-start: 0.2em;
+    margin-block-end: 0.2em;
+    margin: .25rem 0;
+}
+
+.left-side .education p {
+    position: relative;
+    word-break: break-word;
+    width: 100%;
+    font-size: 13px;
+    text-align: center;
+    margin-block-start: 0.2em;
+    margin-block-end: 0.2em;
+    margin: .25rem 0;
+}
+
+.right-side {
+    flex-direction: column;
+    position: relative;
+    display: flex;
+    flex-grow: 1;
+}
+
+.right-side .info p {
+    text-align: center;
+}
+
+.content {
+    width: auto;
+}
+
+.content p {
+    display: inline-block;
+}
+
+.content .formacao-subtitle {
+    display: inline-block;
+}
+
+ul {
+    padding-inline-start: 15px;
+    margin-inline-start: 5px;
+    margin-top: 5px;
+}
+
+li {
+    list-style: disc;
+    font-size: 13px;
+}
