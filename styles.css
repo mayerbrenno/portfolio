@@ -1,73 +1,94 @@
 body {
     color: white;
-    font-family: Courier, monospace;
+    font-family: 'Montserrat';
+    /* background-repeat: repeat-y; */
+    /* background: linear-gradient(180deg, #003380 0%, #39004d 100%) !important; */
+    background-color: lightblue;
+    background-image: url("./images/1330852.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    padding: 20px 10px;
+    height: 100vh;
+}
+
+main {
+    position: relative;
+    margin-left: 160px;
+    width: 80vw;
+}
+
+
+#navbar {
+    /* background-color: rgba(47, 79, 79, .4); */
+    border-radius: 10px;
+    display: block;
+    height: 50px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    text-align: center;
+    width: 150px;
+}
+
+li {
+    margin: 0;
+    margin-top: 30px;
+}
+
+li a {
+    border-radius: 5px;
+    color: #fff;
+    display: block;
+    font-size: large;
+    font-weight: 700;
+    padding: 10px;
+    text-decoration: none;
+    width: auto;
+}
+
+li a:hover {
+    background-color: rgba(144, 104, 82, 0.3);
+}
+
+#about {
     height: auto;
-    background-repeat: repeat-y;
-    background: linear-gradient(180deg, #003380 0%, #39004d 100%) !important;
-}
-
-p {
-    word-break: normal;
-    font-size: 13px;
+    background-color: rgba(255, 255, 255, .05);
+    border-radius: 20px;
+    margin: 0 40%;
+    margin-top: 5%;
+    padding: 15px 30px;
     text-align: justify;
-    margin-block-start: 0.2em;
-    margin-block-end: 0.2em;
+    width: 40%;
 }
 
-h3 {
-    margin-block-start: 0.6em;
-    margin-block-end: 0.3em;
+h2::first-letter {
+    font-size: 150%;
 }
 
-
-h4 {
-    margin-block-start: 0.8em;
-    margin-block-end: 0.8em;
+h3::first-letter {
+    font-size: 130%;
 }
 
-
-h5 {
-    margin-block-start: 0.7em;
-    margin-block-end: 0.3em;
-}
-
-div {
-    margin-block-start: 0.7em;
-    margin-block-end: 0.7em;
-}
-
-.container {
-    min-width: auto;
-    max-width: 900px;
-    align-self: center;
-    height: 100%;
-    margin: auto;
-    padding: 0 10px;
-}
-
-
-.cabecalho {
+#works {
+    display: grid;
+    grid-template-columns: repeat(3, 280px);
+    justify-content: space-evenly;
     width: auto;
+    height: auto;
+    background-color: rgba(255, 255, 255, .05);
+    border-radius: 5px;
+    margin: 50px auto;
 }
 
-.info {
-    width: auto;
-}
-
-.divisor {
-    background-color: gray;
-    height: 1px;
-    width: auto;
-}
-
-.content {
-    width: auto;
-}
-
-.content p {
-    display: inline-block;
-}
-
-.content .formacao-subtitle {
-    display: inline-block;
+.card {
+    margin: 35px auto;
+    float: left;
+    min-width: 280px;
+    max-width: 280px;
+    height: 320px;
+    border-radius: 3%;
+    overflow: hidden;
+    background-color: rgba(240, 248, 255, .1);
 }
