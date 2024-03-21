@@ -3,64 +3,56 @@ body {
     font-family: 'Montserrat';
     /* background-repeat: repeat-y; */
     /* background: linear-gradient(180deg, #003380 0%, #39004d 100%) !important; */
-    background-color: lightblue;
-    background-image: url("./images/1330852.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
+    background-color: #262626;
     padding: 20px 10px;
-    height: 100vh;
+    height: auto;
 }
 
 main {
     position: relative;
-    margin-left: 160px;
-    width: 80vw;
+    margin: 0 auto;
+    width: 70vw;
+    background-color: #313131;
+
 }
 
-
-#navbar {
-    /* background-color: rgba(47, 79, 79, .4); */
-    border-radius: 10px;
-    display: block;
-    height: 50px;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    position: fixed;
+header {
     text-align: center;
-    width: 150px;
 }
 
-li {
-    margin: 0;
-    margin-top: 30px;
+nav {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    /* background-color: rgb(27, 45, 0); */
+    background-color: #67503c;
 }
 
-li a {
+nav a {
+    display: inline-block;
     border-radius: 5px;
     color: #fff;
-    display: block;
     font-size: large;
     font-weight: 700;
     padding: 10px;
+    margin: 0 10px;
     text-decoration: none;
-    width: auto;
 }
-
-li a:hover {
+ 
+nav a:hover {
     background-color: rgba(144, 104, 82, 0.3);
 }
 
 #about {
+    position: relative;
     height: auto;
-    background-color: rgba(255, 255, 255, .05);
-    border-radius: 20px;
-    margin: 0 40%;
-    margin-top: 5%;
-    padding: 15px 30px;
+    background-color: #313131;
+    width: auto;
+    padding: 15px;
+}
+
+#about p {
     text-align: justify;
-    width: 40%;
 }
 
 h2::first-letter {
@@ -69,26 +61,4 @@ h2::first-letter {
 
 h3::first-letter {
     font-size: 130%;
-}
-
-#works {
-    display: grid;
-    grid-template-columns: repeat(3, 280px);
-    justify-content: space-evenly;
-    width: auto;
-    height: auto;
-    background-color: rgba(255, 255, 255, .05);
-    border-radius: 5px;
-    margin: 50px auto;
-}
-
-.card {
-    margin: 35px auto;
-    float: left;
-    min-width: 280px;
-    max-width: 280px;
-    height: 320px;
-    border-radius: 3%;
-    overflow: hidden;
-    background-color: rgba(240, 248, 255, .1);
 }
