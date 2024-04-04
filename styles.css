@@ -1,64 +1,72 @@
 body {
-    color: white;
-    font-family: 'Montserrat';
-    /* background-repeat: repeat-y; */
-    /* background: linear-gradient(180deg, #003380 0%, #39004d 100%) !important; */
-    background-color: #262626;
-    padding: 20px 10px;
-    height: auto;
+  color: white;
+  font-family: "Montserrat";
+  /* background-repeat: repeat-y; */
+  /* background: linear-gradient(180deg, #003380 0%, #39004d 100%) !important; */
+  background-color: #262626;
+  padding: 20px 10px;
+  height: auto;
 }
 
 main {
-    position: relative;
-    margin: 0 auto;
-    width: 70vw;
-    background-color: #313131;
-
+  position: relative;
+  margin: 0 auto;
+  width: 70vw;
+  background-color: #313131;
 }
 
 header {
-    text-align: center;
+  text-align: center;
 }
 
 nav {
-    position: relative;
-    text-align: center;
-    width: 100%;
-    /* background-color: rgb(27, 45, 0); */
-    background-color: #67503c;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  /* background-color: rgb(27, 45, 0); */
+  background-color: #67503c;
 }
 
 nav a {
-    display: inline-block;
-    border-radius: 5px;
-    color: #fff;
-    font-size: large;
-    font-weight: 700;
-    padding: 10px;
-    margin: 0 10px;
-    text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  color: #fff;
+  font-size: large;
+  font-weight: 700;
+  padding: 10px;
+  margin: 0 10px;
+  text-decoration: none;
 }
- 
+
 nav a:hover {
-    background-color: rgba(144, 104, 82, 0.3);
+  background-color: rgba(144, 104, 82, 0.3);
 }
 
 #about {
-    position: relative;
-    height: auto;
-    background-color: #313131;
-    width: auto;
-    padding: 15px;
+  position: relative;
+  height: auto;
+  background-color: #313131;
+  width: auto;
+  padding: 15px;
 }
 
 #about p {
-    text-align: justify;
+  text-align: justify;
+}
+
+#about h3 {
+  background: -webkit-linear-gradient(#8c857c, #d2a5ff);
+  background: -o-linear-gradient(right, #8c857c, #d2a5ff);
+  background: -moz-linear-gradient(right, #8c857c, #d2a5ff);
+  background: linear-gradient(to right, #8c857c, #d2a5ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 h2::first-letter {
-    font-size: 150%;
+  font-size: 150%;
 }
 
 h3::first-letter {
-    font-size: 130%;
+  font-size: 130%;
 }
