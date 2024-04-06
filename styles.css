@@ -23,7 +23,7 @@ nav {
   position: relative;
   text-align: center;
   width: 100%;
-  /* background-color: rgb(27, 45, 0); */
+  background-color: rgb(27, 45, 0);
   background-color: #67503c;
 }
 
@@ -40,7 +40,7 @@ nav a {
 
 nav a:hover {
   background-color: rgba(144, 104, 82, 0.3);
-}
+} 
 
 #about {
   position: relative;
@@ -55,12 +55,16 @@ nav a:hover {
 }
 
 #about h3 {
-  background: -webkit-linear-gradient(#8c857c, #d2a5ff);
-  background: -o-linear-gradient(right, #8c857c, #d2a5ff);
-  background: -moz-linear-gradient(right, #8c857c, #d2a5ff);
-  background: linear-gradient(to right, #8c857c, #d2a5ff);
+  background: -webkit-linear-gradient(right, #8fffa0, #8000ff);
+  background: -o-linear-gradient(right, #8fffa0, #8000ff);
+  background: linear-gradient(to right, #8fffa0, #8000ff);
+  background: linear-gradient(to right, #8fffa0, #8000ff);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
+  background-attachment: fixed;
+  width:47%;
+  background-repeat:no-repeat
 }
 
 h2::first-letter {
