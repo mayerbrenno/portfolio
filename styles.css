@@ -39,7 +39,7 @@ nav a {
 
 nav a:hover {
   background-color: rgba(144, 104, 82, 0.3);
-} 
+}
 
 #about {
   position: relative;
@@ -51,6 +51,7 @@ nav a:hover {
 
 #about p {
   text-align: justify;
+  line-height: 1.2;
 }
 
 #about h3 {
@@ -62,8 +63,8 @@ nav a:hover {
   background-clip: text;
   -webkit-text-fill-color: transparent;
   background-attachment: fixed;
-  width:47%;
-  background-repeat:no-repeat
+  width: 47%;
+  background-repeat: no-repeat;
 }
 
 h2::first-letter {
@@ -74,6 +75,7 @@ h3::first-letter {
   font-size: 130%;
 }
 
-h1, h2 {
+h1,
+h2 {
   text-align: center;
 }
