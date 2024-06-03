@@ -67,15 +67,15 @@ nav a:hover {
   background-repeat: no-repeat;
 }
 
-h2::first-letter {
+#about h2::first-letter {
   font-size: 150%;
 }
 
-h3::first-letter {
+#about h3::first-letter {
   font-size: 130%;
 }
 
 h1,
-h2 {
+#about h2 {
   text-align: center;
 }
