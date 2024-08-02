@@ -17,6 +17,7 @@
     align-items: center;
     flex-wrap: wrap;
     max-width: 1200px;
+    background: rgba(0, 0, 0, 0);
   }
 
   .container .card {
@@ -26,7 +27,18 @@
     border-radius: 10px;
     margin: 10px;
     transition: 0.5s;
+    background-color: rgba(255,255,255,.1);
+    box-sizing: border-box; 
+    overflow: hidden;
   }
+
+  .container .card .card-image {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50px;
+    left: -10px;
+}
 
   .container .card:nth-child(1) .box .content a {
     background: #2196f3;
@@ -42,20 +54,15 @@
 
   .container .card .box {
     position: absolute;
-    top: 20px;
+    top: 0;
     left: 20px;
     right: 20px;
-    bottom: 20px;
-    background: #2a2b2f;
+    bottom: 50px;
     border-radius: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3),
-      inset -5px -5px 20px rgba(255, 33, 214, 0.1);
-      /* 5px 5px 10px rgba(0, 0, 0, 0.3), */
-      /* -5px -5px 20px rgba(255, 33, 214, 0.1); */
     transition: 0.5s;
   }
 
@@ -74,7 +81,6 @@
   } */
 
   .container .card .box .content {
-    padding: 20px;
     text-align: center;
   }
 
@@ -145,17 +151,29 @@
     </section>
 
     <section id="projects-content">
+      
       <div class="container">
-        <div class="card">
+        <!-- <div class="card">
+          <img src="images/unity_logo_png.png" class="card-image" alt="unity-logo-card-image-1">
           <div class="box">
             <div class="content">
-              <h2>0 1</h2>
               <h3>Card One</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?</p>
               <a href="#">Read More</a>
             </div>
           </div>
         </div>
+
+        <div class="card">
+          <img src="images/unity_logo_png.png" class="card-image" alt="unity-logo-card-image-2">
+          <div class="box">
+            <div class="content">
+              <h3>Card Two</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?</p>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div> -->
       </div>
 
     </section>
