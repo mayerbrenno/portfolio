@@ -3,7 +3,7 @@ body {
   font-family: "Montserrat";
   /* background-repeat: repeat-y; */
   /* background: linear-gradient(180deg, #003380 0%, #39004d 100%) !important; */
-  background-color: #262626;
+  background-color: #14100c;
   padding: 20px 10px;
   height: auto;
 }
@@ -14,10 +14,7 @@ main {
   width: 70vw;
 }
 
-header {
-  text-align: center;
-}
-
+/* Horizontal nav
 nav {
   position: relative;
   text-align: center;
@@ -31,6 +28,31 @@ nav a {
   border-radius: 5px;
   color: #fff;
   font-size: large;
+  font-weight: 700;
+  padding: 10px;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: rgba(144, 104, 82, 0.3);
+}
+*/
+
+nav {
+  font-size: 12px;
+  position: relative;
+  width: 150px;
+  background-color: rgb(27, 45, 0);
+  background-color: #67503c;
+}
+
+nav a {
+  display: flex;
+  float: left;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 14px;
   font-weight: 700;
   padding: 10px;
   margin: 0 10px;
